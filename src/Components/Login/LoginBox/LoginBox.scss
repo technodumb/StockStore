@@ -1,0 +1,71 @@
+.LoginBox {
+  width: 350px;
+  background-color: #0000002f;
+  //   height: 350px;
+  margin: 20px 30px;
+  border: 1px solid #e1cc5b;
+  border-radius: 15px;
+  padding: 40px 26px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  .LoginTitle {
+    font-family: "Chivo", sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .InputBoxes {
+    // padding: 0 10px;
+    // margin-bottom: 20px;
+
+    .inputBox {
+      background-color: #ffffff;
+      font-size: medium;
+      width: 100%;
+      height: 40px;
+      border: 1px solid #e1cc5b;
+      border-radius: 20px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+  }
+
+  .LoginBoxButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .LoginButton {
+      background-color: #e1cc5b;
+      font-size: medium;
+      width: 100%;
+      height: 40px;
+      border: 1px solid #e1cc5b;
+      border-radius: 5px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      margin: 10px 0;
+    }
+
+    .LoginButton:hover {
+      background-color: orangered;
+      cursor: pointer;
+    }
+
+    .SignupColor {
+      background-color: orange;
+    }
+
+    #or {
+      font-family: "Chivo", sans-serif;
+      color: white;
+    }
+  }
+}

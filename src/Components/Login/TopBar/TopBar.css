@@ -1,0 +1,32 @@
+.TopBar {
+  background: linear-gradient(180deg, #ffffff 0%, #d9d7f8 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 12px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  height: 100%;
+}
+.actionButtons .actionButton {
+  margin-left: 30px;
+  font-family: "Chivo", sans-serif;
+  color: #19116b;
+}
+.actionButtons .actionButton:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.actionButtons .bold {
+  font-weight: bold;
+}/*# sourceMappingURL=TopBar.css.map */

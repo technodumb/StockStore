@@ -1,0 +1,29 @@
+.TopNav {
+  background: linear-gradient(180deg, #ffffff 0%, #d9d7f8 100%);
+  font-size: 2rem;
+  font-family: Chivo;
+  color: #19116B;
+  border-radius: 1rem;
+  margin: 12.5px;
+  padding: 12.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TopNav span {
+  font-weight: bolder;
+}
+.TopNav .Profile {
+  font-size: 1.5rem;
+  text-align: right;
+  align-items: center;
+}
+.TopNav .Profile span {
+  font-weight: normal;
+}
+.TopNav .flex {
+  display: flex;
+}
+.TopNav .flex.col {
+  flex-direction: column;
+}/*# sourceMappingURL=TopNav.css.map */

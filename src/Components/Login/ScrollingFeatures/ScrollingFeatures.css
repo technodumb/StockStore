@@ -1,0 +1,40 @@
+.ScrollingFeatures {
+  margin: 40px;
+  height: 50%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ScrollingFeatures .feature {
+  color: white;
+  font: 45px "Chivo", sans-serif;
+}
+.ScrollingFeatures .featureScrollBar {
+  display: flex;
+}
+.ScrollingFeatures .featureScrollBar .featureScrollCircle {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin: 0 5px;
+}
+.ScrollingFeatures .featureScrollBar .green {
+  border-color: #e1cc5b;
+}
+.ScrollingFeatures .featureScrollBar .white {
+  border-color: white;
+}
+.ScrollingFeatures .featureScrollBar .greenFilled {
+  background-color: #e1cc5b;
+  border-color: #e1cc5b;
+}
+.ScrollingFeatures .featureScrollBar .whiteFilled {
+  background-color: white;
+  border-color: white;
+}
+.ScrollingFeatures .featureScrollCircle:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1843137255);
+}/*# sourceMappingURL=ScrollingFeatures.css.map */

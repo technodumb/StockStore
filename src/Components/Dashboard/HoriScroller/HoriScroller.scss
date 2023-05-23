@@ -1,0 +1,15 @@
+.HoriScroller{
+    background: linear-gradient(180deg, #ffffff 0%, #d9d7f8 50%);
+    height: 95%;
+
+    border-radius:  1rem;
+    margin: 12.5px;
+    padding: 12.5px;
+    box-sizing: border-box;
+
+    overflow: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}

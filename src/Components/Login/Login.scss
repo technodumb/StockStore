@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background {
+  height: 100vh;
+  width: 100vw;
+  //   import image from assets located at src folder
+  background-image: url(../../assets/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+
+  .LoginBody {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .empty {
+      height: 100px;
+      width: 100px;
+      background-color: white;
+    }
+  }
+}

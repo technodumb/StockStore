@@ -1,0 +1,43 @@
+.TopBar {
+  // color: white;
+  //   background-color: white;
+  // add a gradient background
+  background: linear-gradient(180deg, #ffffff 0%, #d9d7f8 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 12px;
+  // width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  //   position: fixed;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  align-items: center;
+  height: 100%;
+
+  .actionButton {
+    margin-left: 30px;
+    font-family: "Chivo", sans-serif;
+    color: #19116b;
+    // align-items: center;
+    // justify-content: center;
+  }
+
+  .actionButton:hover {
+    cursor: pointer;
+    // color: #000;
+    font-weight: bold;
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+}
